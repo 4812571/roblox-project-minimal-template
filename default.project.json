@@ -9,48 +9,16 @@
             
             "Source": {
                 "$className": "Folder",
-                "$path": "src/ServerScriptService"
+                "$path": "src"
             }
         },
 
         "ReplicatedStorage": {
             "$className": "ReplicatedStorage",
 
-            "Client": {
-                "$className": "Folder",
-                "$path": "src/ReplicatedStorage/Client"
-            },
-
-            "Common": {
-                "$className": "Folder",
-                "$path": "src/ReplicatedStorage/Common"
-            },
-
             "Packages": {
                 "$className": "Folder",
                 "$path": "Packages"
-            }
-        },
-
-        "StarterPlayer": {
-            "$className": "StarterPlayer",
-
-            "StarterPlayerScripts": {
-                "$className": "StarterPlayerScripts",
-
-                "Source": {
-                    "$className": "Folder",
-                    "$path": "src/StarterPlayer/StarterPlayerScripts"
-                }
-            },
-
-            "StarterCharacterScripts": {
-                "$className": "StarterCharacterScripts",
-
-                "Source": {
-                    "$className": "Folder",
-                    "$path": "src/StarterPlayer/StarterCharacterScripts"
-                }
             }
         }
     }
